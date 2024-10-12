@@ -1,0 +1,18 @@
+#include <iostream>
+
+void result(int x)
+{
+    if (x%2 == 0) 
+        std::cout<<"Число "<<x<<" четное"<< std::endl;
+    else 
+        std::cout<<"Число "<<x<<" нечетное"<< std::endl;
+}
+
+int main()
+{
+    int x;
+    std::cout<<"Введите целое число: ";
+    std::cin>>x;
+    result(x);
+    return 0; 
+}
