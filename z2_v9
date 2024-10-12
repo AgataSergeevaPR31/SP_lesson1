@@ -1,0 +1,20 @@
+#include <iostream>
+
+void result(int x)
+{
+    int res=1;
+    for(int i = 1; i<x; i++)
+    {
+        res *= i;
+    }
+    std::cout<<"Произведение всеx чисел до "<<x<<" равно "<<res<< std::endl;
+}
+
+int main()
+{
+    int x;
+    std::cout<<"Введите целое число: ";
+    std::cin>>x;
+    result(x);
+    return 0; 
+}
